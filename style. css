@@ -1,0 +1,77 @@
+/* إعدادات عامة */
+body {
+  font-family: 'Tahoma', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* العنوان */
+header {
+  background: #1976d2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+/* صندوق المحادثة */
+#chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.bot-message, .user-message {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+/* رسائل البوت */
+.bot-message {
+  background: #e3f2fd;
+  align-self: flex-start;
+}
+
+/* رسائل المستخدم */
+.user-message {
+  background: #1976d2;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+/* منطقة الإدخال */
+#input-area {
+  display: flex;
+  padding: 10px;
+  background: #eee;
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#send-btn {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #1976d2;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#send-btn:hover {
+  background: #1565c0;
+}
